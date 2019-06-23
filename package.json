@@ -1,0 +1,21 @@
+{
+  "name": "load-balancer",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "retrohacker <code@blankenship.io>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "husky": "^2.1.0",
+    "prettier": "^1.17.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format",
+      "pre-push": "npm run format"
+    }
+  }
+}

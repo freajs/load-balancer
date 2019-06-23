@@ -1,0 +1,6 @@
+name = "load-balancer"
+type = "webpack"
+zone_id = "0864274f378b3e3bcdd5c5c531a43150"
+private = false
+account_id = "504a16a1a5a8f80972bf40518f9dd6ec"
+route = "registry.freajs.org/*"
